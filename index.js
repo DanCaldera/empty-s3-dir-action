@@ -8,10 +8,10 @@ const aws_key_id = core.getInput('aws_key_id', {
 const aws_secret_key = core.getInput('aws_secret_key', {
   required: true
 })
-const s3_bucket = core.getInput('aws_secret_key', {
+const s3_bucket = core.getInput('s3_bucket', {
   required: true
 })
-const s3_dir = core.getInput('aws_secret_key', {
+const s3_dir = core.getInput('s3_dir', {
   required: true
 })
 
