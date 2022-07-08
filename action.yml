@@ -1,0 +1,19 @@
+name: empty-s3-dir-action
+description: 'empty a dir in s3'
+author: 'Daniel Caldera'
+inputs:
+  aws_key_id:
+    description: 'aws key id'
+    required: true
+  aws_secret_key: 
+    description: 'aws secret key'
+    required: true
+  s3_bucket:
+    description: 's3 bucket'
+    required: true
+  s3_dir:
+    description: 's3 dir'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'
