@@ -1,6 +1,5 @@
 const S3 = require('aws-sdk/clients/s3')
 const core = require('@actions/core')
-require('dotenv').config()
 
 const aws_key_id = core.getInput('aws_key_id', {
   required: true
